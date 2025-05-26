@@ -7,11 +7,15 @@ body {
   color: #333;
 }
 
+
 header {
-  background-color: #222;
-  color: #fff;
-  padding: 1.5rem;
-  text-align: center;
+    position: fixed;
+    z-index: var(--zindex-nav);
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 var(--16px);
 }
 
 nav {
