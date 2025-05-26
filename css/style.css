@@ -172,3 +172,100 @@ footer {
     height: 140px;
   }
 }
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(235, 0, 0, 0.2);
+  color: #ccc;
+  font-size: 0.9rem;
+  margin-top: 60px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer p {
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+.card-box {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 910 0 220px rgba(0,0,0,0.2);
+  max-width: 700px;
+  margin: 40px auto;
+  
+}
+
+.card-box ul {
+  padding-left: 220px;
+  list-style: disc;
+}
+
+.card-box li {
+  margin-bottom: 222px;
+  color: #f0f0f0;
+}
+.edu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.edu-card {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  backdrop-filter: blur(5px);
+  transition: transform 0.3s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+}
+
+.edu-card h3 {
+  color: #a3d5ff;
+  margin-bottom: 10px;
+}
+
+.edu-card p {
+  margin-bottom: 8px;
+  color: #f0f0f0;
+  font-size: 0.95rem;
+}
+
+.edu-group {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  backdrop-filter: blur(5px);
+  grid-column: span 1;
+}
+
+.edu-group h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #a3d5ff;
+}
+
+.edu-group .edu-card {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: none;
+}
+
