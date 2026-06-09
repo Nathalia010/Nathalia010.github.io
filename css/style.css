@@ -29,7 +29,7 @@ body {
 
 .navbar ul {
   display: flex;
-  gap: 60px;
+  gap: 30px;
   list-style: none;
 }
 
@@ -107,6 +107,31 @@ main table {
 main table td {
   padding: 12px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+th {
+    background-color: #1e293b;
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    vertical-align: top;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+td ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+td li {
+    margin-bottom: 8px;
 }
 
 /* FORMULARIOS DE CONTACTO */
