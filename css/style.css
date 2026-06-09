@@ -29,7 +29,7 @@ body {
 
 .navbar ul {
   display: flex;
-  gap: 30px;
+  gap: 60px;
   list-style: none;
 }
 
